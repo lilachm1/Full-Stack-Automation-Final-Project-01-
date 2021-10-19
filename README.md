@@ -1,4 +1,4 @@
-# Full-Stack-Automation-Final-Projec01t-
+# Full-Stack-Automation-Final-Project 01: 
 
 This project created to demonstrate my knowledge and skills in Automation Testing.
 
