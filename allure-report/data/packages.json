@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "sanity",
+    "children" : [ {
+      "name" : "ExperibankMobile",
+      "children" : [ {
+        "name" : "test01_VerifyBalanceText",
+        "uid" : "a4d3266fa3002fd5",
+        "parentUid" : "aac8429fac536b847fa351b3bf38d9da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462007956,
+          "stop" : 1634462033759,
+          "duration" : 25803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "aac8429fac536b847fa351b3bf38d9da"
+    }, {
+      "name" : "ApiDemosElectron",
+      "children" : [ {
+        "name" : "test01_verifyHeader",
+        "uid" : "132a1a63e638dfc3",
+        "parentUid" : "c54eaa95d71e71cf9a6a725aa0a92bf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462162336,
+          "stop" : 1634462163299,
+          "duration" : 963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "test02_verifyHeader",
+        "uid" : "3d8298dfd75bf524",
+        "parentUid" : "c54eaa95d71e71cf9a6a725aa0a92bf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462163333,
+          "stop" : 1634462164038,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "c54eaa95d71e71cf9a6a725aa0a92bf9"
+    } ],
+    "uid" : "838c51b44d7d84d32e356b4096eba035"
+  } ]
+}

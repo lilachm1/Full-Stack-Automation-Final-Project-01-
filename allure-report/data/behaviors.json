@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test01 - Verify Balance Text",
+    "uid" : "a4d3266fa3002fd5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634462007956,
+      "stop" : 1634462033759,
+      "duration" : 25803
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "Test01 -Verify the: View Demo Button",
+    "uid" : "132a1a63e638dfc3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634462162336,
+      "stop" : 1634462163299,
+      "duration" : 963
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "electron" ]
+  }, {
+    "name" : "Test02 -Verify Context_Menu_Demo_Toggle Button",
+    "uid" : "3d8298dfd75bf524",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634462163333,
+      "stop" : 1634462164038,
+      "duration" : 705
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "electron" ]
+  } ]
+}

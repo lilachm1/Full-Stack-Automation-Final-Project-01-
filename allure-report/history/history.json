@@ -1,0 +1,98 @@
+{
+  "c75508616fe2e20c8e794692584dbf40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3d8298dfd75bf524",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/12/allure/#testresult/3d8298dfd75bf524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634462163333,
+        "stop" : 1634462164038,
+        "duration" : 705
+      }
+    }, {
+      "uid" : "9beef98e2f0d23dc",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/11/allure/#testresult/9beef98e2f0d23dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634449920944,
+        "stop" : 1634449921650,
+        "duration" : 706
+      }
+    }, {
+      "uid" : "3b9fd3b5f44535b1",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/10/allure/#testresult/3b9fd3b5f44535b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634148269873,
+        "stop" : 1634148270605,
+        "duration" : 732
+      }
+    } ]
+  },
+  "60cbb314d1276c50935d5eeb2dad147d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "132a1a63e638dfc3",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/12/allure/#testresult/132a1a63e638dfc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634462162336,
+        "stop" : 1634462163299,
+        "duration" : 963
+      }
+    }, {
+      "uid" : "57c3e7922acb6976",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/11/allure/#testresult/57c3e7922acb6976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634449917126,
+        "stop" : 1634449920913,
+        "duration" : 3787
+      }
+    }, {
+      "uid" : "d80a4a1d16de10c4",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/10/allure/#testresult/d80a4a1d16de10c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634148268959,
+        "stop" : 1634148269843,
+        "duration" : 884
+      }
+    } ]
+  },
+  "96bcb8d14d2ba9d2b2804b10fa55a491" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4d3266fa3002fd5",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/12/allure/#testresult/a4d3266fa3002fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634462007956,
+        "stop" : 1634462033759,
+        "duration" : 25803
+      }
+    } ]
+  }
+}

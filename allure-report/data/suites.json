@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Web Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "sanity.ExperibankMobile",
+        "children" : [ {
+          "name" : "Test01 - Verify Balance Text",
+          "uid" : "a4d3266fa3002fd5",
+          "parentUid" : "592f8eaddc85fd2125622e98c85b5344",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634462007956,
+            "stop" : 1634462033759,
+            "duration" : 25803
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mobile" ]
+        } ],
+        "uid" : "592f8eaddc85fd2125622e98c85b5344"
+      }, {
+        "name" : "sanity.ApiDemosElectron",
+        "children" : [ {
+          "name" : "Test01 -Verify the: View Demo Button",
+          "uid" : "132a1a63e638dfc3",
+          "parentUid" : "5402cc3ad16b240bf52582aa76d3918b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634462162336,
+            "stop" : 1634462163299,
+            "duration" : 963
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test02 -Verify Context_Menu_Demo_Toggle Button",
+          "uid" : "3d8298dfd75bf524",
+          "parentUid" : "5402cc3ad16b240bf52582aa76d3918b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634462163333,
+            "stop" : 1634462164038,
+            "duration" : 705
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "5402cc3ad16b240bf52582aa76d3918b"
+      } ],
+      "uid" : "fbd747309552d470d458686a49ca6eb7"
+    } ],
+    "uid" : "3ee6c328cd13b7bf8cf2e1560d3cdfae"
+  } ]
+}

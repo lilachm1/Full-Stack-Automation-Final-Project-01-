@@ -1,0 +1,442 @@
+{
+  "uid" : "a4d3266fa3002fd5",
+  "name" : "Test01 - Verify Balance Text",
+  "fullName" : "sanity.ExperibankMobile.test01_VerifyBalanceText",
+  "historyId" : "96bcb8d14d2ba9d2b2804b10fa55a491",
+  "time" : {
+    "start" : 1634462007956,
+    "stop" : 1634462033759,
+    "duration" : 25803
+  },
+  "description" : "This Test login and make payment ",
+  "descriptionHtml" : "<p>This Test login and make payment</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1634461991762,
+      "stop" : 1634462007579,
+      "duration" : 15817
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beformethood",
+    "time" : {
+      "start" : 1634462007596,
+      "stop" : 1634462007705,
+      "duration" : 109
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test login and make payment ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Login",
+      "time" : {
+        "start" : 1634462008003,
+        "stop" : 1634462013236,
+        "duration" : 5233
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "UpdateText on Element",
+        "time" : {
+          "start" : 1634462008478,
+          "stop" : 1634462009441,
+          "duration" : 963
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: usernameTextField]"
+        }, {
+          "name" : "text",
+          "value" : "company"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "UpdateText on Element",
+        "time" : {
+          "start" : 1634462010200,
+          "stop" : 1634462011106,
+          "duration" : 906
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: passwordTextField]"
+        }, {
+          "name" : "text",
+          "value" : "company"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1634462011848,
+          "stop" : 1634462013236,
+          "duration" : 1388
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: loginButton]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "company"
+      }, {
+        "name" : "pass",
+        "value" : "company"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Business Flow: Make Payment",
+      "time" : {
+        "start" : 1634462013236,
+        "stop" : 1634462030462,
+        "duration" : 17226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Tap on Element",
+        "time" : {
+          "start" : 1634462014627,
+          "stop" : 1634462016541,
+          "duration" : 1914
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "fingers",
+          "value" : "1"
+        }, {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: makePaymentButton]"
+        }, {
+          "name" : "duration",
+          "value" : "500"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "UpdateText on Element",
+        "time" : {
+          "start" : 1634462017430,
+          "stop" : 1634462018298,
+          "duration" : 868
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: phoneTextField]"
+        }, {
+          "name" : "text",
+          "value" : "0526623377"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "UpdateText on Element",
+        "time" : {
+          "start" : 1634462019056,
+          "stop" : 1634462020444,
+          "duration" : 1388
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: nameTextField]"
+        }, {
+          "name" : "text",
+          "value" : "lilach"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "UpdateText on Element",
+        "time" : {
+          "start" : 1634462021243,
+          "stop" : 1634462022098,
+          "duration" : 855
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: amountTextField]"
+        }, {
+          "name" : "text",
+          "value" : "100"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1634462022799,
+          "stop" : 1634462024166,
+          "duration" : 1367
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: countryButton]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1634462024960,
+          "stop" : 1634462026273,
+          "duration" : 1313
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> xpath: //*[@text='USA']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1634462027167,
+          "stop" : 1634462028411,
+          "duration" : 1244
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: sendPaymentButton]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1634462029243,
+          "stop" : 1634462030461,
+          "duration" : 1218
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: button1]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "0526623377"
+      }, {
+        "name" : "name",
+        "value" : "lilach"
+      }, {
+        "name" : "amount",
+        "value" : "100"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 8
+    }, {
+      "name" : "Verify Visibility Of Elements",
+      "time" : {
+        "start" : 1634462031331,
+        "stop" : 1634462031710,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> class name: android.view.View]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on Element",
+      "time" : {
+        "start" : 1634462032180,
+        "stop" : 1634462033685,
+        "duration" : 1505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[AndroidDriver:  on ANY (063cb334-8009-46dd-b08d-9281c7b0621e)] -> id: logoutButton]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ {
+    "name" : "afterMthod",
+    "time" : {
+      "start" : 1634462033781,
+      "stop" : 1634462033781,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1634462033784,
+      "stop" : 1634462036176,
+      "duration" : 2392
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ExperibankMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ExperibankMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_VerifyBalanceText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ExperibankMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-44HBIQT"
+  }, {
+    "name" : "thread",
+    "value" : "12944@DESKTOP-44HBIQT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4d3266fa3002fd5.json",
+  "parameterValues" : [ "mobile" ]
+}

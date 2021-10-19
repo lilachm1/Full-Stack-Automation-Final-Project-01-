@@ -1,0 +1,240 @@
+{
+  "uid" : "3d8298dfd75bf524",
+  "name" : "Test02 -Verify Context_Menu_Demo_Toggle Button",
+  "fullName" : "sanity.ApiDemosElectron.test02_verifyHeader",
+  "historyId" : "c75508616fe2e20c8e794692584dbf40",
+  "time" : {
+    "start" : 1634462163333,
+    "stop" : 1634462164038,
+    "duration" : 705
+  },
+  "description" : "This Test Verifies the :Context_Menu_Demo_Toggle Button After We Pressed on -  Button-menus ",
+  "descriptionHtml" : "<p>This Test Verifies the :Context_Menu_Demo_Toggle Button After We Pressed on -  Button-menus</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1634462155466,
+      "stop" : 1634462161950,
+      "duration" : 6484
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beformethood",
+    "time" : {
+      "start" : 1634462163319,
+      "stop" : 1634462163329,
+      "duration" : 10
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Verifies the :Context_Menu_Demo_Toggle Button After We Pressed on -  Button-menus ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Customize Menus",
+      "time" : {
+        "start" : 1634462163333,
+        "stop" : 1634462163973,
+        "duration" : 640
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clik On Element",
+        "time" : {
+          "start" : 1634462163372,
+          "stop" : 1634462163563,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (ab17b6f7d3dbaab6d55877c42b2f6723)] -> id: button-menus]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clik On Element",
+        "time" : {
+          "start" : 1634462163608,
+          "stop" : 1634462163855,
+          "duration" : 247
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (ab17b6f7d3dbaab6d55877c42b2f6723)] -> id: application-menu-demo-toggle]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Visibility Of Elements",
+        "time" : {
+          "start" : 1634462163906,
+          "stop" : 1634462163973,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (ab17b6f7d3dbaab6d55877c42b2f6723)] -> id: context-menu-demo-toggle]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMthod",
+    "time" : {
+      "start" : 1634462164040,
+      "stop" : 1634462164041,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1634462164044,
+      "stop" : 1634462164912,
+      "duration" : 868
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ApiDemosElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ApiDemosElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_verifyHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ApiDemosElectron"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-44HBIQT"
+  }, {
+    "name" : "thread",
+    "value" : "5456@DESKTOP-44HBIQT.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9beef98e2f0d23dc",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/11/allure/#testresult/9beef98e2f0d23dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634449920944,
+          "stop" : 1634449921650,
+          "duration" : 706
+        }
+      }, {
+        "uid" : "3b9fd3b5f44535b1",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20%20Tests%20%20ApiDemos%20Electron/10/allure/#testresult/3b9fd3b5f44535b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634148269873,
+          "stop" : 1634148270605,
+          "duration" : 732
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d8298dfd75bf524.json",
+  "parameterValues" : [ "electron" ]
+}

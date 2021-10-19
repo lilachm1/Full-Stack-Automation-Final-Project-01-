@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="9542" started-at="2021-10-17T12:15:55 IDT" finished-at="2021-10-17T12:16:04 IDT">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="9542" started-at="2021-10-17T12:15:55 IDT" finished-at="2021-10-17T12:16:04 IDT">
+      <class name="sanity.ApiDemosElectron">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="startSession" is-config="true" duration-ms="6531" started-at="2021-10-17T12:15:55 IDT" finished-at="2021-10-17T12:16:01 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beformethood(java.lang.reflect.Method)[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="beformethood" is-config="true" duration-ms="111" started-at="2021-10-17T12:16:01 IDT" finished-at="2021-10-17T12:16:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.ApiDemosElectron.test01_verifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethood -->
+        <test-method status="PASS" signature="test01_verifyHeader()[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="test01_verifyHeader" duration-ms="946" started-at="2021-10-17T12:16:02 IDT" description="Test01 -Verify the: View Demo Button" finished-at="2021-10-17T12:16:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyHeader -->
+        <test-method status="PASS" signature="afterMthod()[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="afterMthod" is-config="true" duration-ms="1" started-at="2021-10-17T12:16:03 IDT" finished-at="2021-10-17T12:16:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMthod -->
+        <test-method status="PASS" signature="beformethood(java.lang.reflect.Method)[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="beformethood" is-config="true" duration-ms="10" started-at="2021-10-17T12:16:03 IDT" finished-at="2021-10-17T12:16:03 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.ApiDemosElectron.test02_verifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethood -->
+        <test-method status="PASS" signature="test02_verifyHeader()[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="test02_verifyHeader" duration-ms="643" started-at="2021-10-17T12:16:03 IDT" description="Test02 -Verify Context_Menu_Demo_Toggle Button" finished-at="2021-10-17T12:16:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_verifyHeader -->
+        <test-method status="PASS" signature="afterMthod()[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="afterMthod" is-config="true" duration-ms="0" started-at="2021-10-17T12:16:04 IDT" finished-at="2021-10-17T12:16:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMthod -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.ApiDemosElectron@7bd69e82]" name="closeSession" is-config="true" duration-ms="867" started-at="2021-10-17T12:16:04 IDT" finished-at="2021-10-17T12:16:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- sanity.ApiDemosElectron -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>

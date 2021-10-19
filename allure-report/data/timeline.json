@@ -1,0 +1,56 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-44HBIQT",
+    "children" : [ {
+      "name" : "5456@DESKTOP-44HBIQT.main(1)",
+      "children" : [ {
+        "name" : "Test02 -Verify Context_Menu_Demo_Toggle Button",
+        "uid" : "3d8298dfd75bf524",
+        "parentUid" : "34cc25118e63f64e6afabe523c61a345",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462163333,
+          "stop" : 1634462164038,
+          "duration" : 705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01 -Verify the: View Demo Button",
+        "uid" : "132a1a63e638dfc3",
+        "parentUid" : "34cc25118e63f64e6afabe523c61a345",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462162336,
+          "stop" : 1634462163299,
+          "duration" : 963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "34cc25118e63f64e6afabe523c61a345"
+    }, {
+      "name" : "12944@DESKTOP-44HBIQT.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Balance Text",
+        "uid" : "a4d3266fa3002fd5",
+        "parentUid" : "352b8a4d669db2399d4505afc7186cac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634462007956,
+          "stop" : 1634462033759,
+          "duration" : 25803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "352b8a4d669db2399d4505afc7186cac"
+    } ],
+    "uid" : "893a52b77928f1bf2b87132e186ce6ff"
+  } ]
+}
