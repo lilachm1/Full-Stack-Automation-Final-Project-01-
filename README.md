@@ -29,6 +29,11 @@ Each of the applications has a few tests for demonstration purpose. These tests 
 
 **Known Issues:** Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
+
+Attach allure report example of the Mobile Test
+
+
+
 ![mobile-test](https://user-images.githubusercontent.com/92543700/138241967-c7c37f66-2928-4923-96e4-b0719fbfd6ed.png)
 
 
