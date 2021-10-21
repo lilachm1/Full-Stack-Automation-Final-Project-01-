@@ -37,6 +37,8 @@ Attached allure report example of the Mobile Test .
 ![mobile-test](https://user-images.githubusercontent.com/92543700/138241967-c7c37f66-2928-4923-96e4-b0719fbfd6ed.png)
 
 Attached allure report example of the Student list API Test .
+![api- tudent-list](https://user-images.githubusercontent.com/92543700/138251072-1ee26c8c-ca6c-4ad7-be03-48a986bb3e0c.png)
+
 
 
 
