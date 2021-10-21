@@ -29,5 +29,5 @@ Each of the applications has a few tests for demonstration purpose. These tests 
 
 **Known Issues:** Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
-![ Mobile test ](file:///C:/Users/user/Desktop/QA%20Aoutomation/Final%20Project/Untitled3.png)
+
 
