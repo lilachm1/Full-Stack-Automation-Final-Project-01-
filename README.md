@@ -30,7 +30,7 @@ Each of the applications has a few tests for demonstration purpose. These tests 
 **Known Issues:** Sometimes can be conflicts with some dependencies the applications are using. Hence, the project is for DEMO purpose only. In production it should be divided into several projects.
 
 
-Attach allure report example of the Mobile Test
+Attach allure report example of the Mobile Test from Jenkins
 
 
 
